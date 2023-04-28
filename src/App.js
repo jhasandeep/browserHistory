@@ -1,4 +1,4 @@
-import HistoryView from './HistoryView'
+import History from './History'
 import './App.css'
 
 // These are the list used in the application. You can move them to any component needed.
@@ -78,6 +78,6 @@ const initialHistoryList = [
 ]
 
 // Replace your code here
-const App = () => <HistoryView initialHistoryList={initialHistoryList} />
+const App = () => <History initialHistoryList={initialHistoryList} />
 
 export default App

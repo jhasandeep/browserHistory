@@ -145,7 +145,7 @@ class History extends Component {
               <p className="error">There is no history to show</p>
             ) : (
               searchResults.map(eachHistory => (
-                <HistoryItem
+                <HistoryView
                   key={eachHistory.id}
                   historyDetails={eachHistory}
                   updateSearch={this.updateSearch}
